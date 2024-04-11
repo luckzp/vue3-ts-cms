@@ -18,6 +18,9 @@
     "paths": {
       "@/*": [
         "src/*"
+      ],
+      "@vueuse/core": [
+        "node_modules/@vueuse/core/dist/index.d.ts"
       ]
     },
     "lib": [
