@@ -1,11 +1,9 @@
 <template>
-  <div>
+  <div class="flex flex-col h-screen justify-center items-center">
+    <p class="text-3xl text-bold">后台管理系统</p>
     <h1>Count: {{ count }}</h1>
     <button @click="incrementCount">Increment</button>
   </div>
-  <a-flex wrap="wrap" gap="small">
-    <a-button v-for="item in new Array(24)" :key="item" type="primary">Button</a-button>
-  </a-flex>
 </template>
 
 <script setup lang="ts">
